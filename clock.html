@@ -1,0 +1,67 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="jquery.svg.css"> 
+ <style type="text/css">
+  body { background-color: #0c141f; }
+  .demo1 { width: 200px; height: 250px; border: 0px solid #484; float: left; }
+  .demo2 { width: 100px; height: 125px; border: 0px solid #484; float: left; }
+  .demo3 { width: 300px; height: 400px; border: 0px solid #484; float: left; }
+ </style>
+
+
+ <script type="text/javascript" src="jquery-1.10.2.js"></script>
+ <script type="text/javascript" src="raphael-min.js"></script>
+ <script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+
+<div class="demo1" id="clock0"></div>
+<div class="demo2" id="clock1"></div>
+<div class="demo3" id="clock2"></div>
+<div class="demo2" id="clock3"></div>
+<div class="demo1" id="clock4"></div>
+<div class="demo3" id="clock5"></div>
+<div class="demo1" id="clock6"></div>
+<div class="demo2" id="clock7"></div>
+<div class="demo1" id="clock8"></div>
+<div class="demo2" id="clock9"></div>
+<div class="demo1" id="clock10"></div>
+<div class="demo2" id="clock11"></div>
+<div class="demo1" id="clock12"></div>
+<div class="demo2" id="clock13"></div>
+<div class="demo1" id="clock14"></div>
+<div class="demo2" id="clock15"></div>
+<div class="demo1" id="clock16"></div>
+<div class="demo2" id="clock17"></div>
+<div class="demo1" id="clock18"></div>
+<div class="demo2" id="clock19"></div>
+
+<script type="text/javascript">
+  $(function() {
+	  $(document).ready(function() {
+     newClock("clock0", "Local Time (CEST)", 2)
+     newClock("clock1", "New York (EDT)", -4)
+     newClock("clock2", "Local Time (CEST)", 2)
+     newClock("clock3", "New York (EDT)", -4)
+     newClock("clock4", "Local Time (CEST)", 2)
+     newClock("clock5", "New York (EDT)", -4)
+     newClock("clock6", "Local Time (CEST)", 2)
+     newClock("clock7", "New York (EDT)", -4)
+     newClock("clock8", "Local Time (CEST)", 2)
+     newClock("clock9", "New York (EDT)", -4)
+     newClock("clock10", "Local Time (CEST)", 2)
+     newClock("clock11", "New York (EDT)", -4)
+     newClock("clock12", "Local Time (CEST)", 2)
+     newClock("clock13", "New York (EDT)", -4)
+     newClock("clock14", "Local Time (CEST)", 2)
+     newClock("clock15", "New York (EDT)", -4)
+     newClock("clock16", "Local Time (CEST)", 2)
+     newClock("clock17", "New York (EDT)", -4)
+     newClock("clock18", "Local Time (CEST)", 2)
+     newClock("clock19", "New York (EDT)", -4)
+    });
+  });
+</script>
+
+</body>
+</html>
